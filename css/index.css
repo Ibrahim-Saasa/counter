@@ -1,5 +1,5 @@
 body{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
     background-color: hsl(120, 59%, 26%);
 }
 #countLabel{
@@ -15,19 +15,21 @@ body{
     padding: 10px 20px;
     font-size: 1.5em ;
     color: white;
-    background-color: hsl(143, 27%, 50%);
+    background-color: hsl(143, 42%, 51%);
     cursor: pointer;
     transition: background-color 0.25s;
     border-radius: 5px;
 }
 .btn:hover{
-    background-color: blue;
+    background-color: hsl(136, 49%, 35%);
 }
 img{
+    display: block;
     height: 300px;
     width: 300px;
     align-items: center;
     justify-content: center;
-    margin-top: 150px;
-    margin-left: 125px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
